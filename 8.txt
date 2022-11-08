@@ -1,10 +1,11 @@
-let map = new Map();
+let myMap = new Map();
 myMap.set('key', 'prop');
 myMap.set(1, 'prop2');
 myMap.set(true, 123);
 
-console.log(myMap.keys())
-
-for (let name of myMap.keys()) {
-console.log(name)
+Function printMyMap() {
+myMap.fortach((value,key) => {
+console.log('X – ${key}, Y – ${value}');
+})
 }
+printMyMap();
