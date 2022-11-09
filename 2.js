@@ -5,5 +5,5 @@ if (typeof(a) === 'string'
 ){
 console.log(typeof(a));
 } else {
-console.log('Тип а не определен');
+console.log('РўРёРї Р° РЅРµ РѕРїСЂРµРґРµР»РµРЅ');
 }
